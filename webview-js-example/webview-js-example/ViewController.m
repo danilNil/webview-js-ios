@@ -17,10 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSURL *url = [[NSURL alloc] initWithString:@"http://chrisrisner.com"];
-    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
-    self.webView.scalesPageToFit = YES;
-    [self.webView loadRequest:request];
+    NSString *htmlFile = [[NSBundle mainBundle] pathForResource:@"LocalPage" ofType:@"html" inDirectory:nil];
+    NSString* htmlString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
+    [self.webView loadHTMLString:htmlString baseURL:nil];
 }
 
 @end

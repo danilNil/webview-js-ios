@@ -14,6 +14,7 @@
 		838F738C1A3965D100C5B64B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838F738B1A3965D100C5B64B /* Images.xcassets */; };
 		838F738F1A3965D100C5B64B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 838F738D1A3965D100C5B64B /* LaunchScreen.xib */; };
 		838F739B1A3965D200C5B64B /* webview_js_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 838F739A1A3965D200C5B64B /* webview_js_exampleTests.m */; };
+		838F73A51A3967FC00C5B64B /* LocalPage.html in Resources */ = {isa = PBXBuildFile; fileRef = 838F73A41A3967FC00C5B64B /* LocalPage.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		838F73941A3965D200C5B64B /* webview-js-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "webview-js-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		838F73991A3965D200C5B64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		838F739A1A3965D200C5B64B /* webview_js_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webview_js_exampleTests.m; sourceTree = "<group>"; };
+		838F73A41A3967FC00C5B64B /* LocalPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LocalPage.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				838F738B1A3965D100C5B64B /* Images.xcassets */,
 				838F738D1A3965D100C5B64B /* LaunchScreen.xib */,
 				838F737E1A3965D100C5B64B /* Supporting Files */,
+				838F73A41A3967FC00C5B64B /* LocalPage.html */,
 			);
 			path = "webview-js-example";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				838F738A1A3965D100C5B64B /* Main.storyboard in Resources */,
+				838F73A51A3967FC00C5B64B /* LocalPage.html in Resources */,
 				838F738F1A3965D100C5B64B /* LaunchScreen.xib in Resources */,
 				838F738C1A3965D100C5B64B /* Images.xcassets in Resources */,
 			);
